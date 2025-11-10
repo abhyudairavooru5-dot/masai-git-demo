@@ -28,3 +28,13 @@ for i in range(upper_limit):
     else:
         print ("NA")
 
+symptoms = ["lethargy", "Abnormal bleeding PV", "fatigue", "UTI"]
+for symptoms in symptoms:
+    if symptoms == "Abnormal bleeding PV":
+        print ("Please consult a gynecologist")
+    elif symptoms == "Abnormal Bleeding PV" and "UTI":
+        print ("Please consult a gynecologist")
+    elif symptoms == "lethargy" and "fatigue" and "Abnormal bleeding PV":
+        print ("Please consult a gynecologist and get a CBC done")
+    else:
+        print ("Consult a General Physician")
