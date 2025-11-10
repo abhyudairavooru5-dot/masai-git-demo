@@ -15,7 +15,7 @@ if todays == "Saturday":
 else:
   print ("Please tell me the day")
 
-upper_limit = 16
+upper_limit = 18
 for i in range(upper_limit):
     print ("the number is", i)
     if i % 3 == 0:
